@@ -1,0 +1,104 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+.container .containerWrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+.container .containerWrapper .sidebar {
+  background: #191718;
+  color: #fff;
+  width: 30%;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.container .containerWrapper .sidebar li {
+  list-style: none;
+  padding: 0.5rem 2rem 0.5rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid #5C5C5C;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+  color: #AAAAAA;
+}
+.container .containerWrapper .sidebar li:hover {
+  background: #5C5C5C;
+  color: #fff;
+}
+.container .containerWrapper .content {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0;
+  height: 100%;
+}
+.container .containerWrapper .content .headerContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .containerWrapper .content .headerContent img {
+  width: 200px;
+}
+.container .containerWrapper .content .bodyContent {
+  padding: 0 5rem;
+}
+.container .containerWrapper .content .bodyContent .textContent {
+  background: #EFEFEF;
+  text-align: center;
+  padding: 0.5rem 4rem;
+  margin: 1rem 0;
+}
+.container .containerWrapper .content .bodyContent .textContent h3 {
+  font-weight: 700;
+  font-size: 14px;
+  font-style: bold;
+}
+.container .containerWrapper .content .bodyContent .textContent p {
+  font-size: 12px;
+  font-weight: 400;
+}
+.container .containerWrapper .content .bodyContent .cardWrapper {
+  display: flex;
+  flex-direction: row;
+}
+.container .containerWrapper .content .bodyContent .cardWrapper .cardItem {
+  margin: 0.5rem;
+}
+.container .containerWrapper .content .bodyContent .cardWrapper .cardItem .cardTitle {
+  font-weight: 700;
+}
+.container .containerWrapper .content .bodyContent .cardWrapper .cardItem .cardContent .cardImg {
+  height: px;
+  aspect-ratio: 1;
+  float: left;
+  margin: 0.3rem;
+}
+.container .containerWrapper .content .bodyContent .cardWrapper .cardItem .cardContent .cardImg img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.container .containerWrapper .content .bodyContent .cardWrapper .cardItem .cardContent .cardDesc {
+  font-size: 12px;
+}
+.container .containerWrapper .content .footerContent {
+  width: 100%;
+  padding: 1rem 5rem;
+  border-top: 1px solid #DEDEDE;
+  font-weight: 400;
+  font-size: 14px;
+  color: #3E3E3E;
+}/*# sourceMappingURL=style.css.map */
